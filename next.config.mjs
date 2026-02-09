@@ -30,9 +30,8 @@ const nextConfig = {
     );
     return config;
   },
-  turbopack: {},
   experimental: {
-    serverActions: true,
+    serverActions: { enabled: true },
     serverMinification: true,
   },
 };
